@@ -45,3 +45,11 @@ section{
   width: 40px;
   height: 40px;
 }
+
+.skills .icons{
+  opacity: .7;
+}
+
+.skills .icons:hover{
+  opacity: 1;
+}
