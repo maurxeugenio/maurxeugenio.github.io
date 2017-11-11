@@ -1,0 +1,192 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,700|Raleway:200,600);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+html{
+    background: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #c31c1c;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background: #c31c1c;
+    color: white !important;
+}
+
+nav > .container > h1, h2, h3, h4, h5, h6{
+    color: #fff;
+}
+
+footer{
+    background-color: #1c1c1c;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    min-height: 200px;
+}
+
+.centralize{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+footer li {
+    color: white;
+    font-size: 15pt;
+    list-style: none;
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #c31c1c;
+}
+
+button{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18pt;
+    font-weight: 600;
+    width: auto;
+    min-width: 150px;
+    height: 60px;
+    padding: 10px;
+    border: none;
+    overflow: hidden;
+    background-color: #c31c1c;
+}
+
+button:hover{
+    background-color: #dc1c1c;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+p{
+    padding: 10px 0;
+    text-align: justify;
+}
+
+.white{
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.list  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.list{
+    margin: 10px 0;
+}
+
+.list li{
+    width: 90%;
+    max-width: 475px;
+    height: 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 15pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px ;
+    background: #c31c1c;
+    border-left: 1px solid white;
+    margin: 5px 0;
+}
+.list li:hover{
+    background: #d31c1c;
+}
+
+.container{
+    width: 90%;
+    max-width: 1024px;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+}
+
+.container-red{
+    background: #c31c1c;
+}
+
+.cards{
+    text-align: center;
+}
+
+th{
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #f1f1f1;
+}
+
+tr:hover td{
+    background: #c1c1c1;
+    color: white;
+}
+
+td{
+    font-size: 15pt;
+    font-weight: 400;
+    padding: 10px 5px;
+}
+hr{
+    margin: 20px 0;
+}
+.legenda{
+    text-align: left;
+    position: relative;
+    color: white;
+    top: 280px;
+    font-size: 10pt;
+    background: rgba(0,0,0, .5);
+    padding: 10px 5px 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card{
+    text-align: inherit;
+    width: 90%;
+    display: inline-block;
+    max-width: 328px;
+    height: auto;
+    min-height: 328px;
+    background: #c31c1c;
+    margin: 5px 2px;
+    padding: 0;
+    border: 2px solid #fff;
+}
+
+.card > figure, img{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+.information{
+    padding: 10px;
+    list-style: none;
+}
+.information i{
+    margin-right: 20px;
+}
