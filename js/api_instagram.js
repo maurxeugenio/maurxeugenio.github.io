@@ -40,8 +40,9 @@ function idade(ano_aniversario, mes_aniversario, dia_aniversario) {
     if (mes_atual < mes_aniversario || mes_atual == mes_aniversario && dia_atual < dia_aniversario) {
         quantos_anos--;
     }
+    var idate =  quantos_anos < 0 ? 0 : quantos_anos;
+    document.getElementById('minha_idade').innerHTML = 'aa';
 
-    return $('.idade').val(quantos_anos < 0 ? 0 : quantos_anos;)
-}
+    }
 
 idade(1997, 02, 26)
