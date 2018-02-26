@@ -8,7 +8,7 @@ $.ajax({
 	type: 'GET',
 	data: {access_token: token, count: num_photos},
 	success: function(data){
- 		console.log(data);
+
 		for( x in data.data ){
             $('.cards').append('<a target="_blank" href="'+ data.data[x].link +'"> '+
             '<div class="card"  title="'+ data.data[x].caption.text + '" '+
@@ -20,7 +20,7 @@ $.ajax({
 		}
 	},
 	error: function(data){
-		console.log(data); // send the error notifications to console
+		console.log('erro'); // send the error notifications to console
 	}
 });
 
@@ -41,7 +41,7 @@ function idade(ano_aniversario, mes_aniversario, dia_aniversario) {
         quantos_anos--;
     }
 
-    return quantos_anos < 0 ? 0 : quantos_anos;
+    return $('.idade').val(quantos_anos < 0 ? 0 : quantos_anos;)
 }
 
-console.log(idade(1997, 02, 26))
+idade(1997, 02, 26)
