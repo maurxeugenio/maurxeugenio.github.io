@@ -1,4 +1,4 @@
-var token = '7238202831.1677ed0.849df20e81f341218a2fddef63132707', // learn how to obtain it below
+var token = '5240850b94f8487bb3bc15b271d43084', // learn how to obtain it below
     userid = 7238202831, // User ID - get it in source HTML of your Instagram profile or look at the next example :)
     num_photos = 6; // how much photos do you want to get
 
